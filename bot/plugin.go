@@ -15,7 +15,7 @@ const (
 
 type Plugin interface {
 	// Called when the plugin is supposed to be initialized
-	// That is add comnands, discord event handlers
+	// That is add commands, discord event handlers
 	InitBot()
 	Name() string
 }
